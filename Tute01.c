@@ -4,7 +4,16 @@
 
 #include <stdio.h>
 
-int main() {
+int main() {float sm1,sm2,average,sum;
+	
+	printf("Enter Your subject marks: \n");
+	scanf("%f",&sm1);
+	scanf("%f",&sm2);
+	
+	sum = sm1 + sm2;
+	average = sum/2;
+	
+	printf("The average of the two marks:%.2f",average);
   
   return 0;
 }
